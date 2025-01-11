@@ -9,7 +9,7 @@ const MyNavbar = function() {
           <img
             src="/logo.png" 
             alt="Logo"
-            style={{ width: '100px', height: '55px' }}
+            style={{ width: '120px', height: '60px' }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarSupportedContent" />
