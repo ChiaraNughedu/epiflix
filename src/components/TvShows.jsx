@@ -4,7 +4,7 @@ import { Grid, Grid3x3 } from 'react-bootstrap-icons'
 
 const TvShows = function() {
     return(
-        <Container fluid={true} className="bg-dark px-4">
+        <Container fluid={true} className="bg-dark px-3">
         <div className="d-flex justify-content-between">
           <div className="d-flex">
             <h2 className="mb-3 text-light">TV Shows</h2>
