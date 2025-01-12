@@ -1,7 +1,6 @@
-import { Container, Dropdown, DropdownButton } from 'react-bootstrap';
-import { Grid, Grid3x3 } from 'react-bootstrap-icons'
-import './component.css'
-
+import { Container, Dropdown, DropdownButton } from "react-bootstrap";
+import { Grid, Grid3x3 } from "react-bootstrap-icons";
+import "./component.css";
 
 function TvShows() {
   return (
@@ -18,19 +17,31 @@ function TvShows() {
                 title="Genres"
                 className="border rounded-0"
               >
-                <Dropdown.Item href="#" className="bg-dark text-light">Comedy</Dropdown.Item>
-                <Dropdown.Item href="#" className="bg-dark text-light">Drama</Dropdown.Item>
-                <Dropdown.Item href="#" className="bg-dark text-light">Thriller</Dropdown.Item>
+                <Dropdown.Item href="#" className="bg-dark text-light">
+                  Comedy
+                </Dropdown.Item>
+                <Dropdown.Item href="#" className="bg-dark text-light">
+                  Drama
+                </Dropdown.Item>
+                <Dropdown.Item href="#" className="bg-dark text-light">
+                  Thriller
+                </Dropdown.Item>
               </DropdownButton>
             </Dropdown>
           </div>
         </div>
         <div>
-          <Grid className="icons text-light mt-1" style={{ marginLeft: '15px' }} />
-          <Grid3x3 className="icons text-light mt-1" style={{ marginLeft: '15px' }} />
+          <Grid
+            className="icons text-light mt-1"
+            style={{ marginLeft: "15px" }}
+          />
+          <Grid3x3
+            className="icons text-light mt-1"
+            style={{ marginLeft: "15px" }}
+          />
         </div>
       </div>
     </Container>
   );
 }
-export default TvShows
+export default TvShows;
