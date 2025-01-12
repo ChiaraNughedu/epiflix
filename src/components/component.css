@@ -1,9 +1,9 @@
 .fixed-size-img {
-    width: 160px; 
-    height: 130px; 
-    object-fit: cover; 
-    display: block;
+    width: 200px; 
+    height: 135px; 
+    object-fit: fill;
     margin: 0 auto;
+    filter: contrast(1.1) brightness(1.1);
 }
 .fixed-card-width {
     width: 220px; 
@@ -21,4 +21,11 @@
  footer p, a {
     color: #6C757D;
     text-decoration: none;
+ }
+ .dropdown-menu {
+    background-color: #212529;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 0.5px solid rgb(136, 135, 135);
+    border-radius: 2%;
  }

@@ -70,7 +70,7 @@ class FirstComponent extends Component {
               <Card className="text-center card fixed-card-width">
                 <Card.Img
                   variant="center"
-                  src={film.Poster}
+                  src={film.Poster} 
                   alt={`movie picture ${imdbID + 1}`}
                   className="img-fluid w-100 fixed-size-img"
                 />
