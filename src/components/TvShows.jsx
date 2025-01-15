@@ -2,7 +2,10 @@ import { Container, Dropdown, DropdownButton } from "react-bootstrap";
 import { Grid, Grid3x3 } from "react-bootstrap-icons";
 import "./component.css";
 
-function TvShows() {
+
+const TvShows = function () {
+  
+
   return (
     <Container fluid={true} className="px-3">
       <div className="d-flex justify-content-between">

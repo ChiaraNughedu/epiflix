@@ -9,17 +9,22 @@ import MyFooter from "./components/MyFooter";
 import FirstComponent from "./components/FirstComponent";
 import SecondComponent from "./components/SecondComponent";
 import ThirdComponent from "./components/ThirdComponent";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <MyNavbar />
-      <TvShows />
+
+      <Routes>
+        <Route path="/" element={<TvShows />}></Route>
+      </Routes>
+      
       <FirstComponent />
       <SecondComponent />
       <ThirdComponent />
       <MyFooter />
-    </>
+    </BrowserRouter>
   );
 }
 
